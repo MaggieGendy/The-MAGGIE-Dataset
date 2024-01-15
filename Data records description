@@ -1,0 +1,20 @@
+MAGGIE is organized into 75 table-pairs (in the form of CSVs), such that each user has two data-tables containing user-related data, 
+Device and Battery-related time series Data, and Sensors-related Data. Each of these two tables has a unique ID, we used
+the Android ID that is uniquely and permanently given to each smart phone manifactured.
+The first data-table contains the following data: 
+• Battery Percentage.
+• Battery Health status.
+• Battery Temperature.
+• Internet Connection status.
+• Charging Status: whether Charging or Not Charging.
+• Location: We divided our city into 7 districts in MAGGIE, accordingly, each user takes a district index from 1-7 that represents the location where they were present most of the time.
+• Participant’s Gender.
+• Participant’s Age Category: We divided the participants into 4 age-categories which are: 18-23, 24-29, 30-35 and others.
+
+The second data-table includes the following information as shown in 2:
+• Device model.
+• Device Android version .
+• Device API Level.
+Also, it includes details concerning all the built-in sensors such as:
+• Sensors Name: This is a list all the sensors found on the device, more importantly it specifies whether these sensors are
+calibrated or not and if they are wake-up sensors, in order to help us understand the acquired measurements.
