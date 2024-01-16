@@ -1,4 +1,5 @@
-MAGGIE is organized into 75 table-pairs (in the form of CSVs), such that each user has two data-tables containing user-related data, 
+MAGGIE is organized into 75 table-pairs (in the form of CSVs), such that each user has two data-tables (one from Mobile 
+specificaions and sensors folder and the other from Users profiles folder) containing user-related data, 
 Device and Battery-related time series Data, and Sensors-related Data. Each of these two tables has a unique ID, we used
 the Android ID that is uniquely and permanently given to each smart phone manifactured.
 The first data-table contains the following data: 
